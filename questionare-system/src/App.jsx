@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import MainLayout from "./layout/MainLayout";
 import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
+import ProjectShowCase from "./pages/ProjectShowCase";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<MainLayout/>}>
         <Route index element={<Dashboard />}></Route>
         <Route path="signup" element={<SignUp/>}></Route>
+        <Route path="projects" element={<ProjectShowCase/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
