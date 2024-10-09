@@ -25,8 +25,9 @@ const Dashboard = () => {
             <h1 className="mb-6 text-3xl font-bold dark:text-secondary md:text-6xl lg:mb-8">
               Q&A Retrieval System
             </h1>
-            <p className="text-sm text-textColor dark:textColor sm:text-xl">
-              [Description about the project]
+            <p className="text-sm text-secondary dark:secondary sm:text-xl">
+              This is a context aware RAG (Retrieve-augmented Generation) application  using LangChain, ChromaDB and Ollama.
+              This application will utilize your datasets as context before generating a response
             </p>
             {/* Divider */}
             <div className="mb-8 mt-8 h-px w-full bg-black"></div>
@@ -40,10 +41,10 @@ const Dashboard = () => {
             </div>
             {/* Link */}
             <a
-              href="/projects"
+              href="#"
               className="mb-6 flex items-center gap-2.5 text-center text-sm font-bold uppercase md:mb-10 lg:mb-12"
             >
-              <p>All Projects</p>
+              <p>Get Started</p>
               <img
                 src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b1465d46adaf3f26099edf_arrow.svg"
                 alt=""
@@ -54,14 +55,14 @@ const Dashboard = () => {
             <div className="flex flex-col gap-4 font-semibold sm:flex-row">
               <a
                 href="#"
-                className="flex items-center gap-4 rounded-md bg-background dark:bg-secondary px-6 py-3 text-white"
+                className="flex items-center gap-4 rounded-md bg-primary-foreground border border-black dark:bg-secondary px-6 py-3 text-input dark:text-textColor"
               >
                 <Linkedin/>
                 <p>LinkedIn</p>
               </a>
               <a
                 href="#"
-                className="flex gap-4 rounded-md border border-solid border-black px-6 py-3"
+                className="flex gap-4 rounded-md border border-solid border-black px-6 py-3 text-textColor dark:text-secondary"
               >
                 <img
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b14704c8616ad7ba080fe0_Note.svg"

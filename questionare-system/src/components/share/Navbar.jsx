@@ -36,6 +36,15 @@ const Navbar = () => {
           <div className="hidden md:block">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-sm">
+              <li>
+                  <a
+                    className="text-textColor transition hover:text-gray-500/75"
+                    href="/"
+                  >
+                    {" "}
+                    Home{" "}
+                  </a>
+                </li>
                 <li>
                   <a
                     className="text-textColor transition hover:text-gray-500/75"
@@ -49,7 +58,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-textColor transition hover:text-gray-500/75"
-                    href="#"
+                    href="/projects"
                   >
                     {" "}
                     Projects{" "}
